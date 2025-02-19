@@ -1,10 +1,14 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .pfp {
     display: block;
     width: 325px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
     clip-path: circle();
 }
 
