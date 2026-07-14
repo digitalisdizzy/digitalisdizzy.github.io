@@ -7,11 +7,34 @@ body {
     font-size: 2vh;
     height: 100vh;
     padding: 0;
-    margin: 0;
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+h1.big {
+    font-size: 3em;
+}
+
+.tm_big {
+    margin-top: 4em;
+}
+.tm_mid {
+    margin-top: 2em;
+}
+.tm_no {
+    margin-top: 0;
+}
+.bm_no {
+    margin-bottom: 0;
+}
+
+p.big {
+    font-size: 1.2em;
+}
+p.secondary {
+    color: #b9b9b9;
 }
 
 a {
@@ -83,3 +106,9 @@ div.alert.warn h1 { color: rgb(197, 107, 34); }
 
 div.alert.info { background-color: rgba(0, 100, 167, 0.192); border-color: rgba(6, 123, 158, 0.801); }
 div.alert.info h1 { color: rgba(33, 186, 224, 0.849); }
+
+hr {
+    border-color: #535353;
+    width: 100%;
+    margin-left: 0;
+}
